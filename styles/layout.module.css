@@ -2,8 +2,14 @@
   max-width: 38rem;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
-  justify-content: center;
+}
+
+.header {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
 }
