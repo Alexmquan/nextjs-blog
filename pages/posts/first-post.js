@@ -6,7 +6,7 @@ import Layout from "../../components/layout.js";
 
 export default function firstPost() {
   return (
-    <>
+    <Layout>
       <Head>
         <title>Website Header</title>
       </Head>
@@ -30,6 +30,6 @@ export default function firstPost() {
         width={144}
         alt="Alex"
       />
-    </>
+    </Layout>
   );
 }
